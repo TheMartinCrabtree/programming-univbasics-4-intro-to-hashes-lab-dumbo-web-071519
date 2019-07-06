@@ -37,7 +37,8 @@ def update_counting_hash(hash, key)
   if newHash[key]
     return newHash[key]+=1 
   else
-    return newHash[key]=1 
+    realNewHash = {:key => 1}
+    return realNewHash 
   end
   
   
