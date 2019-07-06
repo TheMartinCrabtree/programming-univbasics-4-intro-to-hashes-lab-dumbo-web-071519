@@ -32,14 +32,11 @@ def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
-  newHash = {}
-  newHash = hash
-  if newHash[key]
-    return newHash[key]+=1 
-  else
-    realNewHash = {:key => 1}
-    return realNewHash 
-  end
+  
+  puts hash[key]
+  
+  puts hash[key]+=1
+  
   
   
   
