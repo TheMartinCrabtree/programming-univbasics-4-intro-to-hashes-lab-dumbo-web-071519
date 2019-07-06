@@ -18,8 +18,8 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  newHash = {}
-  return newHash[key] = value
+  newHash = {}newHash[key] = value
+  return 
   
   return newHash
 end
